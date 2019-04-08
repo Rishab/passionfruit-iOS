@@ -19,8 +19,11 @@ class FeedTableViewController: UITableViewController {
         api.getUsers { (userData) in
             self.users = userData.users
             print("Count: \(userData.count)")
-            self.tableView.reloadData()
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
         }
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -42,11 +45,19 @@ class FeedTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "userCell", for: indexPath)
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "userCell", for: indexPath) as? FeedCell {
+            //cell.textLabel?.text = users[indexPath.row].name
+            cell.setupCell(user: users[indexPath.row])
+            return cell
+        } else {
+            return UITableViewCell()
+        }
 
         // Configure the cell...
-        cell.textLabel?.text = users[indexPath.row].name
-        return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 202
     }
     
 
