@@ -16,12 +16,15 @@ class FeedCell: UITableViewCell {
     
     @IBOutlet var profilePicture: UIImageView!
     
+    
     func setupCell(user: User) {
         card.layer.cornerRadius = 15.0
         card.layer.masksToBounds = true
+        profilePicture.image =  UIImage(named: "DSC_0406")
+        profilePicture.layer.cornerRadius = profilePicture.frame.height / 2.0
+        profilePicture.clipsToBounds = true
         nameLabel.text = user.name
         ageLabel.text = "\(user.profileInfo.age)"
-        profilePicture.layer.cornerRadius = 50
     }
 
 }

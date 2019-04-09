@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D92F2C9B223878F0007094BB /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F2C9A223878F0007094BB /* FeedTableViewController.swift */; };
 		D92F2C9D22387BBB007094BB /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F2C9C22387BBB007094BB /* FeedViewModel.swift */; };
 		D985995C2258182400F52B8E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D985995B2258182400F52B8E /* FeedCell.swift */; };
 		D9B5FE23223834C300EF8074 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B5FE22223834C300EF8074 /* ProfileViewController.swift */; };
 		D9B5FE25223838A900EF8074 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B5FE24223838A900EF8074 /* APIClient.swift */; };
+		D9BCEA81225B9CBA00EA5E61 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCEA80225B9CBA00EA5E61 /* FeedViewController.swift */; };
+		D9BCEA83225C0B0A00EA5E61 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCEA82225C0B0A00EA5E61 /* PopupViewController.swift */; };
 		D9DCE04B221CDE3B00D71CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DCE04A221CDE3B00D71CC2 /* AppDelegate.swift */; };
 		D9DCE04D221CDE3B00D71CC2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DCE04C221CDE3B00D71CC2 /* LoginViewController.swift */; };
 		D9DCE050221CDE3B00D71CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DCE04E221CDE3B00D71CC2 /* Main.storyboard */; };
@@ -20,11 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D92F2C9A223878F0007094BB /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		D92F2C9C22387BBB007094BB /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		D985995B2258182400F52B8E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		D9B5FE22223834C300EF8074 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D9B5FE24223838A900EF8074 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		D9BCEA80225B9CBA00EA5E61 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		D9BCEA82225C0B0A00EA5E61 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 		D9DCE047221CDE3B00D71CC2 /* passionfruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = passionfruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DCE04A221CDE3B00D71CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9DCE04C221CDE3B00D71CC2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -48,9 +50,10 @@
 		D9B5FE1E2238331100EF8074 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D9BCEA82225C0B0A00EA5E61 /* PopupViewController.swift */,
+				D9BCEA80225B9CBA00EA5E61 /* FeedViewController.swift */,
 				D9B5FE22223834C300EF8074 /* ProfileViewController.swift */,
 				D9DCE04C221CDE3B00D71CC2 /* LoginViewController.swift */,
-				D92F2C9A223878F0007094BB /* FeedTableViewController.swift */,
 				D985995B2258182400F52B8E /* FeedCell.swift */,
 			);
 			path = "View Controllers";
@@ -169,10 +172,11 @@
 				D985995C2258182400F52B8E /* FeedCell.swift in Sources */,
 				D92F2C9D22387BBB007094BB /* FeedViewModel.swift in Sources */,
 				D9DCE04D221CDE3B00D71CC2 /* LoginViewController.swift in Sources */,
-				D92F2C9B223878F0007094BB /* FeedTableViewController.swift in Sources */,
 				D9B5FE23223834C300EF8074 /* ProfileViewController.swift in Sources */,
 				D9B5FE25223838A900EF8074 /* APIClient.swift in Sources */,
+				D9BCEA81225B9CBA00EA5E61 /* FeedViewController.swift in Sources */,
 				D9DCE04B221CDE3B00D71CC2 /* AppDelegate.swift in Sources */,
+				D9BCEA83225C0B0A00EA5E61 /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

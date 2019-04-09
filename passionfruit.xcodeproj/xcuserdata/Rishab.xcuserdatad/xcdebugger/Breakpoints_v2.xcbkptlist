@@ -33,38 +33,6 @@
             endingLineNumber = "19"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "passionfruit.FeedTableViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "passionfruit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Rishab/Documents/Projects/RUMAD/passionfruit-iOS/passionfruit/passionfruit/View%20Controllers/FeedTableViewController.swift"
-                  timestampString = "574128341.218237"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (passionfruit.FeedData) -&gt; () in passionfruit.FeedTableViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "passionfruit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Rishab/Documents/Projects/RUMAD/passionfruit-iOS/passionfruit/passionfruit/View%20Controllers/FeedTableViewController.swift"
-                  timestampString = "574128341.221488"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "33">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -74,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "passionfruit/APIClient.swift"
-            timestampString = "576198265.441299"
+            timestampString = "576462695.348349"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
@@ -90,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "passionfruit/APIClient.swift"
-            timestampString = "576198265.441372"
+            timestampString = "576462695.348433"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
@@ -106,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "passionfruit/APIClient.swift"
-            timestampString = "576198265.441435"
+            timestampString = "576462695.348495"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
@@ -122,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "passionfruit/APIClient.swift"
-            timestampString = "576198265.441497"
+            timestampString = "576462695.348552"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
@@ -137,8 +105,8 @@
                   symbolName = "passionfruit.APIClient.getUsers(completion: (passionfruit.FeedData) -&gt; ()) -&gt; ()"
                   moduleName = "passionfruit"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Rishab/Documents/Projects/RUMAD/passionfruit-iOS/passionfruit/passionfruit/APIClient.swift"
-                  timestampString = "574128341.2450711"
+                  urlString = "file:///Users/Rishab/Documents/Projects/passionfruit-iOS/passionfruit/APIClient.swift"
+                  timestampString = "576461158.190212"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "29"
@@ -152,8 +120,8 @@
                   symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in passionfruit.APIClient.getUsers(completion: (passionfruit.FeedData) -&gt; ()) -&gt; ()"
                   moduleName = "passionfruit"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Rishab/Documents/Projects/RUMAD/passionfruit-iOS/passionfruit/passionfruit/APIClient.swift"
-                  timestampString = "574128341.2483751"
+                  urlString = "file:///Users/Rishab/Documents/Projects/passionfruit-iOS/passionfruit/APIClient.swift"
+                  timestampString = "576461158.192836"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "30"
@@ -170,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "passionfruit/APIClient.swift"
-            timestampString = "576198265.441561"
+            timestampString = "576462695.348609"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"
@@ -186,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "passionfruit/APIClient.swift"
-            timestampString = "576198265.4416291"
+            timestampString = "576462695.348664"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
@@ -202,7 +170,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "passionfruit/APIClient.swift"
-            timestampString = "576198265.441684"
+            timestampString = "576462695.34872"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -218,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "passionfruit/APIClient.swift"
-            timestampString = "576198265.441736"
+            timestampString = "576462695.348774"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
@@ -234,7 +202,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "passionfruit/APIClient.swift"
-            timestampString = "576198265.441787"
+            timestampString = "576462695.348829"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -250,7 +218,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "passionfruit/APIClient.swift"
-            timestampString = "576198265.441837"
+            timestampString = "576462695.348882"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -266,7 +234,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "passionfruit/APIClient.swift"
-            timestampString = "576198265.441896"
+            timestampString = "576462695.348936"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
@@ -281,8 +249,8 @@
                   symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in passionfruit.APIClient.getUsers(completion: (passionfruit.FeedData) -&gt; ()) -&gt; ()"
                   moduleName = "passionfruit"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Rishab/Documents/Projects/RUMAD/passionfruit-iOS/passionfruit/passionfruit/APIClient.swift"
-                  timestampString = "574128377.018494"
+                  urlString = "file:///Users/Rishab/Documents/Projects/passionfruit-iOS/passionfruit/APIClient.swift"
+                  timestampString = "576461158.230832"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "35"
@@ -296,8 +264,8 @@
                   symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in passionfruit.APIClient.getUsers(completion: (passionfruit.FeedData) -&gt; ()) -&gt; ()"
                   moduleName = "passionfruit"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Rishab/Documents/Projects/RUMAD/passionfruit-iOS/passionfruit/passionfruit/APIClient.swift"
-                  timestampString = "574128377.021812"
+                  urlString = "file:///Users/Rishab/Documents/Projects/passionfruit-iOS/passionfruit/APIClient.swift"
+                  timestampString = "576461158.233272"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "35"
@@ -311,8 +279,8 @@
                   symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in passionfruit.APIClient.getUsers(completion: (passionfruit.FeedData) -&gt; ()) -&gt; ()"
                   moduleName = "passionfruit"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Rishab/Documents/Projects/RUMAD/passionfruit-iOS/passionfruit/passionfruit/APIClient.swift"
-                  timestampString = "574128377.0246871"
+                  urlString = "file:///Users/Rishab/Documents/Projects/passionfruit-iOS/passionfruit/APIClient.swift"
+                  timestampString = "576461158.235543"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "35"
@@ -329,7 +297,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "passionfruit/APIClient.swift"
-            timestampString = "576198265.441955"
+            timestampString = "576462695.348989"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
@@ -345,7 +313,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "passionfruit/APIClient.swift"
-            timestampString = "576198265.442006"
+            timestampString = "576462695.349043"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
@@ -361,7 +329,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "passionfruit/APIClient.swift"
-            timestampString = "576198265.442068"
+            timestampString = "576462695.349097"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
@@ -377,12 +345,348 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "passionfruit/APIClient.swift"
-            timestampString = "576198265.442126"
+            timestampString = "576462695.3491499"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
             endingLineNumber = "37"
             landmarkName = "getUsers(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.5580389"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.558108"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.558158"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.558202"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.558244"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.558285"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.558327"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.558368"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.55841"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.55845"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.55849"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "passionfruit.FeedViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "passionfruit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rishab/Documents/Projects/passionfruit-iOS/passionfruit/View%20Controllers/FeedViewController.swift"
+                  timestampString = "576461158.320657"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "525">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (passionfruit.FeedData) -&gt; () in passionfruit.FeedViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "passionfruit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rishab/Documents/Projects/passionfruit-iOS/passionfruit/View%20Controllers/FeedViewController.swift"
+                  timestampString = "576461158.322589"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "33">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.55854"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.5586081"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.558672"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.558732"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (passionfruit.FeedData) -&gt; () in passionfruit.FeedViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "passionfruit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rishab/Documents/Projects/passionfruit-iOS/passionfruit/View%20Controllers/FeedViewController.swift"
+                  timestampString = "576461158.346276"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "552">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (passionfruit.FeedData) -&gt; () in passionfruit.FeedViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "passionfruit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rishab/Documents/Projects/passionfruit-iOS/passionfruit/View%20Controllers/FeedViewController.swift"
+                  timestampString = "576461158.34826"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.558789"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "passionfruit/View Controllers/FeedViewController.swift"
+            timestampString = "576544024.558849"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
