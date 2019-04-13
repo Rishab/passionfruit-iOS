@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import GoogleSignIn
 
 protocol UserDelegate {
     func didTapUserCell(user: User)

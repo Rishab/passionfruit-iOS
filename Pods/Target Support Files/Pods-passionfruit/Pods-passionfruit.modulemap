@@ -1,0 +1,6 @@
+framework module Pods_passionfruit {
+  umbrella header "Pods-passionfruit-umbrella.h"
+
+  export *
+  module * { export * }
+}

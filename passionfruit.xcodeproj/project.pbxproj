@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F16B6587DB72C80ADA54A8B /* Pods_passionfruit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCED88A785FF6E8301F506A7 /* Pods_passionfruit.framework */; };
+		D91E9C78225D600F003FD5FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D91E9C77225D600F003FD5FB /* GoogleService-Info.plist */; };
 		D92F2C9D22387BBB007094BB /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F2C9C22387BBB007094BB /* FeedViewModel.swift */; };
+		D96AF3E6225D706100A462A4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AF3E5225D706100A462A4 /* SignUpViewController.swift */; };
 		D985995C2258182400F52B8E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D985995B2258182400F52B8E /* FeedCell.swift */; };
 		D9B5FE23223834C300EF8074 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B5FE22223834C300EF8074 /* ProfileViewController.swift */; };
 		D9B5FE25223838A900EF8074 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B5FE24223838A900EF8074 /* APIClient.swift */; };
@@ -21,7 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85D48C70323DA3AAEEB51A4C /* Pods-passionfruit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-passionfruit.debug.xcconfig"; path = "Target Support Files/Pods-passionfruit/Pods-passionfruit.debug.xcconfig"; sourceTree = "<group>"; };
+		A622062BE77FDEC6D46CB85B /* Pods-passionfruit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-passionfruit.release.xcconfig"; path = "Target Support Files/Pods-passionfruit/Pods-passionfruit.release.xcconfig"; sourceTree = "<group>"; };
+		D91E9C77225D600F003FD5FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D92F2C9C22387BBB007094BB /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		D96AF3E5225D706100A462A4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = "/Users/Rishab/Documents/Projects/passionfruit-iOS/passionfruit/View Controllers/SignUpViewController.swift"; sourceTree = "<absolute>"; };
 		D985995B2258182400F52B8E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		D9B5FE22223834C300EF8074 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D9B5FE24223838A900EF8074 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
@@ -34,6 +41,7 @@
 		D9DCE051221CDE3D00D71CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9DCE054221CDE3D00D71CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9DCE056221CDE3D00D71CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCED88A785FF6E8301F506A7 /* Pods_passionfruit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_passionfruit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,15 +49,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F16B6587DB72C80ADA54A8B /* Pods_passionfruit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6761A02CDEA4D547F01F91DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85D48C70323DA3AAEEB51A4C /* Pods-passionfruit.debug.xcconfig */,
+				A622062BE77FDEC6D46CB85B /* Pods-passionfruit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D9B5FE1E2238331100EF8074 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D96AF3E5225D706100A462A4 /* SignUpViewController.swift */,
 				D9BCEA82225C0B0A00EA5E61 /* PopupViewController.swift */,
 				D9BCEA80225B9CBA00EA5E61 /* FeedViewController.swift */,
 				D9B5FE22223834C300EF8074 /* ProfileViewController.swift */,
@@ -72,6 +91,8 @@
 			children = (
 				D9DCE049221CDE3B00D71CC2 /* passionfruit */,
 				D9DCE048221CDE3B00D71CC2 /* Products */,
+				6761A02CDEA4D547F01F91DF /* Pods */,
+				F797ACA7628D5E9FCF509CEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +107,7 @@
 		D9DCE049221CDE3B00D71CC2 /* passionfruit */ = {
 			isa = PBXGroup;
 			children = (
+				D91E9C77225D600F003FD5FB /* GoogleService-Info.plist */,
 				D9B5FE24223838A900EF8074 /* APIClient.swift */,
 				D9B5FE1F2238331C00EF8074 /* View Models */,
 				D9B5FE1E2238331100EF8074 /* View Controllers */,
@@ -98,6 +120,14 @@
 			path = passionfruit;
 			sourceTree = "<group>";
 		};
+		F797ACA7628D5E9FCF509CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCED88A785FF6E8301F506A7 /* Pods_passionfruit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -105,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9DCE059221CDE3D00D71CC2 /* Build configuration list for PBXNativeTarget "passionfruit" */;
 			buildPhases = (
+				A74E520488F481B2BE0F7FF4 /* [CP] Check Pods Manifest.lock */,
 				D9DCE043221CDE3B00D71CC2 /* Sources */,
 				D9DCE044221CDE3B00D71CC2 /* Frameworks */,
 				D9DCE045221CDE3B00D71CC2 /* Resources */,
+				57CF8AC4DD3D3CDEE8EC14BB /* [CP] Embed Pods Frameworks */,
+				DA46BA4EEA34D6C98A4B5B26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,12 +190,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9DCE055221CDE3D00D71CC2 /* LaunchScreen.storyboard in Resources */,
+				D91E9C78225D600F003FD5FB /* GoogleService-Info.plist in Resources */,
 				D9DCE052221CDE3D00D71CC2 /* Assets.xcassets in Resources */,
 				D9DCE050221CDE3B00D71CC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57CF8AC4DD3D3CDEE8EC14BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-passionfruit/Pods-passionfruit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-passionfruit/Pods-passionfruit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-passionfruit/Pods-passionfruit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A74E520488F481B2BE0F7FF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-passionfruit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA46BA4EEA34D6C98A4B5B26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-passionfruit/Pods-passionfruit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-passionfruit/Pods-passionfruit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-passionfruit/Pods-passionfruit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9DCE043221CDE3B00D71CC2 /* Sources */ = {
@@ -175,6 +268,7 @@
 				D9B5FE23223834C300EF8074 /* ProfileViewController.swift in Sources */,
 				D9B5FE25223838A900EF8074 /* APIClient.swift in Sources */,
 				D9BCEA81225B9CBA00EA5E61 /* FeedViewController.swift in Sources */,
+				D96AF3E6225D706100A462A4 /* SignUpViewController.swift in Sources */,
 				D9DCE04B221CDE3B00D71CC2 /* AppDelegate.swift in Sources */,
 				D9BCEA83225C0B0A00EA5E61 /* PopupViewController.swift in Sources */,
 			);
@@ -320,9 +414,11 @@
 		};
 		D9DCE05A221CDE3D00D71CC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85D48C70323DA3AAEEB51A4C /* Pods-passionfruit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N752G2EBA8;
 				INFOPLIST_FILE = passionfruit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -337,9 +433,11 @@
 		};
 		D9DCE05B221CDE3D00D71CC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A622062BE77FDEC6D46CB85B /* Pods-passionfruit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N752G2EBA8;
 				INFOPLIST_FILE = passionfruit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
